@@ -30,6 +30,10 @@ export default {
         })),
       },
       {
+        path: '/admin',
+        component: 'src/admin/index.html',
+      },
+      {
         is404: true,
         component: 'src/containers/404',
       },
