@@ -1,12 +1,11 @@
 import axios from 'axios'
-import {appUrl} from './src/config.js';
 
 export default {
   getSiteData: () => ({
     title: 'React Static',
   }),
   getRoutes: async () => {
-    const { data: posts } = await axios.get(`${appUrl}/wp-json/wp/v2/posts`)
+    const { data: posts } = await axios.get(`http://ec2-54-92-207-152.compute-1.amazonaws.com/wp-json/wp/v2/posts`)
     return [
       {
         path: '/',
