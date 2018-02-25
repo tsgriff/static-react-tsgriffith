@@ -12,10 +12,9 @@ const App = () => (
   <Provider store={store}>
     <Router>
       <div>
-        <nav>
-          <Link to="/">Home</Link>
-          <Link to="/about">About</Link>
-          <Link to="/blog">Blog</Link>
+        <nav className="custom-navbar">
+          <Link className="nav-link" to="/">Home</Link>
+          <Link className="nav-link" to="/blog">Blog</Link>
         </nav>
         <div className="content">
           <Routes />

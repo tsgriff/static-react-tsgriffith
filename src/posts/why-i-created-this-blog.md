@@ -10,6 +10,3 @@ A big hindrance that's been keeping me from blogging was finding topics to write
 
 
 Since I've embarked on a career in web development, I've realized how many interesting topics there are to learn about and explore. Web development, and the technology field at large, are growing and progressing rapidly and I'm incredibly excited to chart this evolution through my blog. I spend a lot of my time in the forest of code, but blogging will be time to step back, reflect, and see the greater technical landscape. Occasionally, I'll write about my other interests, but I expect this blog to primarily focus on technology.
-
-
-Enjoy, and please feel free to contact me with any comments or questions :). (Comment functionality coming soon!)

@@ -1,7 +1,8 @@
 import React from 'react'
 import { withRouteData, Link } from 'react-static'
-// import Moment from 'react-moment';
-import '../app.css';
+import Moment from 'react-moment'
+import Markdown from 'react-markdown'
+//
 
 export default withRouteData(({ posts }) => (
   <section className="blog">
@@ -9,17 +10,14 @@ export default withRouteData(({ posts }) => (
       <p className="typewritten-phrase blog-title">Taylor's Blog.</p>
     </div>
     <div className="posts-contain">
-    <section className="posts-section">
-    {posts.map((post, i) => (
-        <section className="blog-post" key={i}>
-          <p className="post-title">{post.title.rendered}</p>
-          {/* <Moment format="MMMM Do, YYYY" className="post-date">{post.date}</Moment> */}
-          <div dangerouslySetInnerHTML={{__html: post.excerpt.rendered}} className="post-text-sample"></div>
-            <Link to={`/blog/post/${post.slug}`} className="continue-reading">Continue reading &#8594;</Link>
+      {posts.map(post => (
+        <section className="blog-post" key={post.data.slug}>
+          <Link className="post-title" to={`/blog/post/${post.data.slug}`}>{post.data.title}</Link>
+          <Moment format="MMMM Do, YYYY" className="post-date">{post.data.date}</Moment>
+          <Markdown className="post-text-sample" source={post.excerpt} escapeHtml={false} />
+          <Link to={`/blog/post/${post.data.slug}`} className="continue-reading">Continue reading &#8594;</Link>
         </section>
-    ))
-    }
-    </section>
+      ))}
     </div>
   </section>
 ))
