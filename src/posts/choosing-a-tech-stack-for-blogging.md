@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Choosing a Tech Stack for Blogging
-date: 2018-02-12T15:49:12-08:00
+date: 2018-02-12T23:49:12.000Z
 categories:
   - blogging
   - tech
@@ -23,3 +23,23 @@ However, I just wanted to start writing. WordPress was the top recommended blogg
 &nbsp;
 
 After a decent amount of research, I found the perfect tech stack for this blog (well, at least for now). I'm combining my own custom React/Redux frontend app with the WordPress API. This allows me to use the WordPress dashboard to write and edit posts and render them on my own app. I'm grateful for the WordPress dashboard, it makes content management easy and it allowed me to just dive into writing with the content being spit out to an ever-evolving application of my own design.
+
+&nbsp;
+
+Resources that I found helpful:
+
+&nbsp;
+
+"Launch a WordPress Website with Amazon EC2" by Amazon Web Services
+
+&nbsp;
+
+http://amzn.to/2ezq6Xp
+
+&nbsp;
+
+"How to Build React apps on top of the WordPress REST API" by Andrey Pokrovskiy
+
+&nbsp;
+
+http://bit.ly/2BWa8FC
