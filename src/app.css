@@ -84,7 +84,6 @@ nav a {
 }
 
 .title h1 {
-  margin-bottom: -10px;
   font-family: proxima-nova;
   font-size: 70px;
   color: #FCFCFC;
@@ -131,7 +130,6 @@ nav a {
   }
 }
 
-
 .social-media {
   color: #FCFCFC;
   display: flex;
@@ -139,7 +137,8 @@ nav a {
   flex-direction: row;
   font-size: 40px;
   list-style-type: none;
-  width: 100%
+  width: 100%;
+  margin: 25px 0 25px 0;
 }
 
 .social-media li a {
@@ -395,11 +394,6 @@ nav a {
 
 .portfolio-contain ul li h6 {
   margin-bottom: 2vh;
-}
-
-.portfolio-contain img {
-  width: 50vw;
-  height: 55vh;
 }
 
 .carousel-main {
@@ -661,8 +655,8 @@ margin-left: 25px;
 }
 
 .post-text-sample {
-  font-size: 18px;
   margin: 10px 0 10px 0;
+  font-size: 18px;
 }
 
 .continue-reading {
@@ -699,7 +693,7 @@ margin-left: 25px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 50px; 
+  padding-top: 25px; 
 }
 
 .chosen-post {
@@ -710,7 +704,7 @@ margin-left: 25px;
 .chosen-post-title {
   font-weight: bold;
   font-size: 26px;
-  margin-bottom: 10px;
+  margin: 25px 0 10px 0;
   text-align: center;
 }
 
@@ -721,8 +715,20 @@ margin-left: 25px;
 }
 
 .chosen-post-text {
-  font-family: Georgia, 'Times New Roman', Times, serif;
   line-height: 1.35; 
   margin: 10px 0 75px 0;  
-  font-size: 16px;  
+  font-size: 20px;  
+}
+
+.responsive-image {
+  width: 55vw;
+  height: auto;
+}
+
+.react-static {
+  width: 55vw;
+}
+
+.react-static-link {
+  margin-top: 10px;
 }

@@ -17,10 +17,12 @@ function getPosts () {
             const data = fs.readFileSync(item.path, 'utf8')
             // Convert to frontmatter object //
             const dataObj = matter(data)
+             // Remove unused key //
+             delete dataObj.orig
             // Create slug for URL //
             dataObj.data.slug = dataObj.data.title.toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g, '')
             // Create excerpt //
-            dataObj.excerpt = dataObj.content.split('</p>').slice(0,1).join(' ')
+            dataObj.excerpt = dataObj.content.split('\n').slice(0,1).join(' ')
             // Push object into items array //
             console.log(dataObj)
             items.push(dataObj)

@@ -19,6 +19,9 @@ const App = () => (
         <div className="content">
           <Routes />
         </div>
+        <div className="blog-footer">
+          <div className="blog-footer-text">&copy; {new Date().getFullYear()} | Powered by <a href="https://nozzle-react-static.netlify.com/" target="_blank" rel="noopener noreferrer">React-Static</a> and <a href="https://www.netlifycms.org/" target="_blank" rel="noopener noreferrer">Netlify CMS</a></div>
+        </div>
       </div>
     </Router>
   </Provider>
