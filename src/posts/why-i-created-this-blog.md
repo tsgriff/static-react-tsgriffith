@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Why I Created this Blog
-date: 2018-02-14T00:00:00-08:00
+date: 2018-02-12T00:00:00-08:00
 categories:
   - blogging
   - writing
