@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: The Case for Static Site Generators
-date: 2018-02-26T00:00:00-08:00
+date: '02/26/2018 '
 categories:
   - blogging
   - technology
