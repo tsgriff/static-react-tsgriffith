@@ -16,7 +16,7 @@ const meta = {
 
 export default withRouteData(({ posts }) => {
   posts.sort(function(a,b) {
-    console.log(new Date(parseInt(a.data.date) * 1000))
+    return (a.data.date < b.data.date) ? 1 : ((a.data.date > b.data.date) ? -1 : 0);    
   })
   return (
     <section className="blog">
