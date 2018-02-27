@@ -18,7 +18,7 @@ As I dove deeper into blogs that developers built and were using I noticed a pat
 
 &nbsp;
 
-<h2 style="font-weight: bold">**Static**</h2>
+<h2 style="font-weight: bold">Static</h2>
 
 &nbsp;
 
@@ -26,7 +26,7 @@ With static sites, what you see is what you get. There are no opportunities for 
 
 &nbsp;
 
-**Dynamic**
+<h2 style="font-weight: bold">Dynamic</h2>
 
 &nbsp;
 
@@ -34,15 +34,19 @@ By definition, dynamic sites allow user interaction. They are complex applicatio
 
 &nbsp;
 
-**Why use a static site over a dynamic one?**
+<h2 style="font-weight: bold">Why use a static site over a dynamic one?</h2>
 
 &nbsp;
-
-1. Faster. All of the data is ready to be displayed as soon as the user loads the site and it does not need to change. This is a huge benefit for search engine optimization.
-2. More secure. Static sites are self-contained and don't have to continually open doors for communication with the server (these openings are potential places for hackers to break into the system and inject malicious code). 
-3. Simpler. Perhaps one of the biggest advantages is the simplicity of the tech used. No server and databases eliminates a lot of complexity that comes with web development, thereby improving developer experience and the ability to keep the website well-maintained and functioning properly (especially under heavy load).
-4. Free hosting! Without a server, it's a lot easier to host for free (I use and recommend Netlify).
-
+<ol>
+<li>Faster. All of the data is ready to be displayed as soon as the user loads the site and it does not need to change. This is a huge benefit for search engine optimization.</li>
+&nbsp;
+<li>More secure. Static sites are self-contained and don't have to continually open doors for communication with the server (these openings are potential places for hackers to break into the system and inject malicious code).</li>
+&nbsp;
+<li>Simpler. Perhaps one of the biggest advantages is the simplicity of the tech used. No server and databases eliminates a lot of complexity that comes with web 
+development, thereby improving developer experience and the ability to keep the website well-maintained and functioning properly (especially under heavy load).</li>
+&nbsp;
+<li>Free hosting! Without a server, it's a lot easier to host for free (I use and recommend Netlify).</li>
+</ol>
  &nbsp;
 
 Because of these reasons, static sites have been making a comeback in the form of static site generators. These are frameworks for building static sites on top of modern languages and even frameworks, such as JavaScript and React-Static. Static site generators fall under the  "JAMstack" acronym which stands for Javascript, APIs, and markup. Any dynamic programming on the client-side is handled with JavaScript (including frameworks or libraries such as React), APIs to handle any server or database operations (rather than a CMS like WordPress), and markup (HTML and CSS) that is already built before the website is rendered.
