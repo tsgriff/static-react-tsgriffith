@@ -18,7 +18,7 @@ As I dove deeper into blogs that developers built and were using I noticed a pat
 
 &nbsp;
 
-<h2>Static</h2>
+<h2><strong>Static</strong></h2>
 
 &nbsp;
 
