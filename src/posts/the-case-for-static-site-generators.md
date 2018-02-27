@@ -18,7 +18,7 @@ As I dove deeper into blogs that developers built and were using I noticed a pat
 
 &nbsp;
 
-## **Static**
+## \##**Static##**
 
 &nbsp;
 
@@ -26,7 +26,7 @@ With static sites, what you see is what you get. There are no opportunities for 
 
 &nbsp;
 
-## **Dynamic**
+## \##**Dynamic##**
 
 &nbsp;
 
@@ -34,7 +34,7 @@ By definition, dynamic sites allow user interaction. They are complex applicatio
 
 &nbsp;
 
-## **Why use a static site over a dynamic one? **
+## \##**Why use a static site over a dynamic one?##**
 
 &nbsp;
 
