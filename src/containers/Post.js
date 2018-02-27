@@ -10,7 +10,7 @@ export default withRouteData(({ post }) => {
 
   const meta = {
     title: post.data.title + ' | Taylor Griffith',
-    description: '',
+    description: post.data.title,
     meta: {
       charset: 'utf-8',
     }
