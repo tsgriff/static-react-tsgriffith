@@ -20,6 +20,7 @@
     "path": "^0.12.7",
     "react": "^16.0.0",
     "react-addons-css-transition-group": "^15.6.2",
+    "react-document-meta": "^2.1.2",
     "react-dom": "^16.0.0",
     "react-image-carousel": "^1.0.17",
     "react-markdown": "^3.2.1",

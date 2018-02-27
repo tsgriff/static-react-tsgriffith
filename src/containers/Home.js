@@ -4,8 +4,20 @@ import 'font-awesome/css/font-awesome.min.css'
 import photo from '../images/photo.jpg'
 import Portfolio from './Portfolio';
 
+import DocumentMeta from 'react-document-meta';
+
+const meta = {
+  title: 'Taylor Griffith | Web Developer',
+  description: 'Taylor Griffith web developer portfolio',
+  meta: {
+    charset: 'utf-8',
+  }
+}
+
+
 export default withSiteData(() => (
   <div>
+    <DocumentMeta {...meta} />
     <section id="home">
       <div className="title"><h1>Taylor Griffith</h1> <br /> <h5>Web Developer</h5></div>
       <div className="social-media">

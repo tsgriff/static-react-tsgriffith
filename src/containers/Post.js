@@ -4,8 +4,21 @@ import Moment from 'react-moment'
 import Markdown from 'react-markdown'
 //
 
-export default withRouteData(({ post }) => (
+import DocumentMeta from 'react-document-meta';
+
+export default withRouteData(({ post }) => {
+
+  const meta = {
+    title: post.data.title + ' | Taylor Griffith',
+    description: '',
+    meta: {
+      charset: 'utf-8',
+    }
+  }
+
+  return (
   <section className="chosen-posts-section">
+    <DocumentMeta {...meta} />
     <div className="chosen-post">
     <Link to="/blog/">{'<'} Back</Link>
       <p className="chosen-post-title">{post.data.title}</p>
@@ -13,4 +26,5 @@ export default withRouteData(({ post }) => (
       <Markdown className="chosen-post-text" source={post.content} escapeHtml={false} />
     </div>
   </section>
-))
+  )
+})
