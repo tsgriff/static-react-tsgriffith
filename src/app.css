@@ -732,3 +732,16 @@ margin-left: 25px;
 .react-static-link {
   margin-top: 10px;
 }
+
+.nav-icon-contain {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  margin-right: 15px; 
+}
+
+.nav-icon-contain .fa {
+  padding: 0 5px 0 5px;
+  color: white;
+}

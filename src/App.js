@@ -15,6 +15,11 @@ const App = () => (
         <nav className="custom-navbar">
           <Link className="nav-link" to="/">Home</Link>
           <Link className="nav-link" to="/blog">Blog</Link>
+          <div className="nav-icon-contain">
+            <i className="fa fa-laptop"></i>
+            <i className="fa fa-code"></i>
+            <i className="fa fa-coffee"></i>
+          </div>
         </nav>
         <div className="content">
           <Routes />

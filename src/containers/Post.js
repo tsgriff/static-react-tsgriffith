@@ -10,7 +10,7 @@ export default withRouteData(({ post }) => {
 
   const meta = {
     title: post.data.title + ' | Taylor Griffith',
-    description: post.data.title,
+    description: post.data.tags.join(' '),
     meta: {
       charset: 'utf-8',
     }
@@ -18,6 +18,7 @@ export default withRouteData(({ post }) => {
 
   return (
   <section className="chosen-posts-section">
+      {console.log(post.data.tags.join(' '))}
     <DocumentMeta {...meta} />
     <div className="chosen-post">
     <Link to="/blog/">{'<'} Back</Link>
