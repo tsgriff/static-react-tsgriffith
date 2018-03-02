@@ -21,13 +21,9 @@ export default withRouteData(({ post }) => {
     <DocumentMeta {...meta} />
     <div className="chosen-post">
     <Link to="/blog/">{'<'} Back</Link>
-    {post.data.thumbnail !== '' ? 
-            <img className="image" src={post.data.thumbnail} alt="" />
-            :
-            <noscript />
-          }
       <p className="chosen-post-title">{post.data.title}</p>
       <div className="chosen-post-date"><Moment format="MMMM Do, YYYY" className="chosen-post-date">{post.data.date}</Moment></div>
+      <img className="image" src={post.data.thumbnail} alt="" />
       <Markdown className="chosen-post-text" source={post.content} escapeHtml={false} />
     </div>
   </section>
