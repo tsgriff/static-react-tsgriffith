@@ -28,13 +28,6 @@ export default withRouteData(({ posts }) => {
         {
           posts.map(post => (
             <section className="blog-post" key={post.data.slug}>
-              {post.data.thumbnail ?
-                <div className="blog-image-contain">
-                  <img className="image" src={post.data.thumbnail} alt="" />
-                </div>
-                :
-                <noscript />
-              }
               <Link className="post-title" to={`/blog/post/${post.data.slug}`}>{post.data.title}</Link>
               <Moment format="MMMM Do, YYYY" className="post-date">{post.data.date}</Moment>
               <Markdown className="post-text-sample" source={post.excerpt} escapeHtml={false} />

@@ -642,6 +642,7 @@ margin-left: 25px;
   padding: 35px 25px 35px 25px;
   display: flex;
   flex-direction: column;
+  /* align-items: center; */
 }
 
 .post-title {
@@ -746,13 +747,6 @@ margin-left: 25px;
   color: white;
 }
 
-.blog-image-contain {
-  width: 100%;
-  display: flex;
-  justify-content: flex-start;
-  margin: 35px 0 35px 0 ;
-}
-
 .image-contain {
   width: 100%;
   display: flex;
@@ -761,8 +755,8 @@ margin-left: 25px;
 }
 
 .image {
-  width: 50%;
+  width: 60%;
   min-width: 300px;
-  height: 50%;
+  height: 60%;
   border-radius: 4px;
 }
