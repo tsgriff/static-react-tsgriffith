@@ -15,8 +15,8 @@ const meta = {
 }
 
 export default withRouteData(({ posts }) => {
-  posts.sort(function(a,b) {
-    return (a.data.date < b.data.date) ? 1 : ((a.data.date > b.data.date) ? -1 : 0);    
+  posts.sort(function (a, b) {
+    return (a.data.date < b.data.date) ? 1 : ((a.data.date > b.data.date) ? -1 : 0);
   })
   return (
     <section className="blog">
@@ -27,18 +27,20 @@ export default withRouteData(({ posts }) => {
       <div className="posts-contain">
         {
           posts.map(post => (
-          <section className="blog-post" key={post.data.slug}>
-          {post.data.thumbnail !== '' ? 
-            <img className="image" src={post.data.thumbnail} alt="" />
-            :
-            <noscript />
-          }
-            <Link className="post-title" to={`/blog/post/${post.data.slug}`}>{post.data.title}</Link>
-            <Moment format="MMMM Do, YYYY" className="post-date">{post.data.date}</Moment>
-            <Markdown className="post-text-sample" source={post.excerpt} escapeHtml={false} />
-            <Link to={`/blog/post/${post.data.slug}`} className="continue-reading">Continue reading &#8594;</Link>
-          </section>
-        ))
+            <section className="blog-post" key={post.data.slug}>
+              {post.data.thumbnail ?
+                <div className="blog-image-contain">
+                  <img className="image" src={post.data.thumbnail} alt="" />
+                </div>
+                :
+                <noscript />
+              }
+              <Link className="post-title" to={`/blog/post/${post.data.slug}`}>{post.data.title}</Link>
+              <Moment format="MMMM Do, YYYY" className="post-date">{post.data.date}</Moment>
+              <Markdown className="post-text-sample" source={post.excerpt} escapeHtml={false} />
+              <Link to={`/blog/post/${post.data.slug}`} className="continue-reading">Continue reading &#8594;</Link>
+            </section>
+          ))
         }
       </div>
     </section>

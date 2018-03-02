@@ -23,7 +23,13 @@ export default withRouteData(({ post }) => {
     <Link to="/blog/">{'<'} Back</Link>
       <p className="chosen-post-title">{post.data.title}</p>
       <div className="chosen-post-date"><Moment format="MMMM Do, YYYY" className="chosen-post-date">{post.data.date}</Moment></div>
-      <img className="image" src={post.data.thumbnail} alt="" />
+      {post.data.thumbnail ? 
+      <div className="image-contain">
+        <img className="image" src={post.data.thumbnail} alt="" />
+      </div>
+      :
+      <noscript />
+      }
       <Markdown className="chosen-post-text" source={post.content} escapeHtml={false} />
     </div>
   </section>

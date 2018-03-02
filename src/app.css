@@ -656,7 +656,7 @@ margin-left: 25px;
 
 .post-text-sample {
   margin: 10px 0 10px 0;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .continue-reading {
@@ -746,8 +746,23 @@ margin-left: 25px;
   color: white;
 }
 
+.blog-image-contain {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin: 35px 0 35px 0 ;
+}
+
+.image-contain {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 35px 0 35px 0 ;
+}
+
 .image {
-  width: 25%;
-  min-width: 250px;
-  height: auto;
+  width: 70%;
+  min-width: 300px;
+  height: 50%;
+  border-radius: 4px;
 }
