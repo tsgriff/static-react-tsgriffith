@@ -10,7 +10,7 @@ tags:
   - jamstack
   - static site generator
 ---
-In the my last post I thought I had decided on a pretty good tech stack to use for my blog. It was an extension of my personal site, which was a dynamic web application built with React and Redux and WordPress as a detached CMS with blog posts retrieved through the WP-API. My next project was to research search engine optimization (SEO) since I vaguely knew that modern JavaScript apps were problematic for SEO. This culminated in not only changing the tech that this site is built upon, but also my first open-source contribution on GitHub.
+In my last post I thought I had decided on a pretty good tech stack to use for my blog. It was an extension of my personal site, which was a dynamic web application built with React and Redux and WordPress as a detached CMS with blog posts retrieved through the WP-API. My next project was to research search engine optimization (SEO) since I vaguely knew that modern JavaScript apps were problematic for SEO. This culminated in not only changing the tech that this site is built upon, but also my first open-source contribution on GitHub.
 
 &nbsp;
 
