@@ -42,7 +42,6 @@ Component Class (typescript file)
   handleInput(event: Event) {
    this.username = (<HTMLInputElement>event.target).value;
   }
-
 ```
 
 &nbsp;
@@ -56,7 +55,6 @@ type="text"
 />
 <p>{{ username }}</p>
 ```
-
 
 &nbsp;
 
@@ -72,13 +70,13 @@ Nothing needed.
 
 Component Template (HTML file)
 
-<code>
-	<input 
-	  type="text" 
-	  \[(ngModel)]="username"
-	/>
-	<p>{{ username }}</p>
-</code>
+```
+<input 
+type="text" 
+[(ngModel)]="username"
+/>
+<p>{{ username }}</p>
+```
 
 &nbsp;
 
@@ -102,18 +100,11 @@ Component (JS file)
 
 I'll post the whole file (since it's small and is focused on this example only) and walk through what's happening.
 
-<code>
+```
 class App extends Component {
   constructor(props) {
     super(props);
-     this.state = { 
-
-\    username: ""
-
-\    }
-
-this.handleUsername = this.handleUsername.bind(this);
-	  }
+     this.state = {  username: ""    } this.handleUsername =      this.handleUsername.bind(this); }
   handleUsername(event) {
     this.setState({
    username: event.target.value
@@ -126,9 +117,10 @@ this.handleUsername = this.handleUsername.bind(this);
     <p>{this.state.username}</p>
     </div>
    );
-	  }
-	}
-</code>
+}
+}
+
+```
 
 &nbsp;
 
