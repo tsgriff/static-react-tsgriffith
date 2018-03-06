@@ -15,7 +15,7 @@ Data binding is a term for the connection of data between a user's input and how
 
 &nbsp;
 
-<strong>Angular</strong>
+<h2 style="font-weight: bold">Angular</h2>
 
 &nbsp;
 
@@ -23,7 +23,7 @@ One of the assignments of my Udemy Angular course was simple data-binding with a
 
 &nbsp;
 
-![](/uploads/angular-data-binding.png)
+![null](/uploads/angular-data-binding.png)
 
 &nbsp;
 
@@ -31,45 +31,34 @@ Now let's look at solutions for one-way and two-way binding.
 
 &nbsp;
 
-<strong>One-way binding</strong>:
+<h2 style="font-weight: bold">One-way binding</h2>:
 
 &nbsp;
 
 Component Class (typescript file)
 
-<pre>
-
+<code>
   username: string = '';
-
   handleInput(event: Event) {
-
-\    this.username = (<HTMLInputElement>event.target).value;
-
+   this.username = (<HTMLInputElement>event.target).value;
   }
-
-</pre>
+</code>
 
 &nbsp;
 
 Component Template (HTML file)
 
-<pre>
-
+<code>
 	<input 
-
 	  type="text" 
-
 	  (input)="handleInput($event)"
-
 	/>
-
 	<p>{{ username }}</p>
-
-</pre>
+</code>
 
 &nbsp;
 
-<strong>Two-way binding</strong>:
+<h2 style="font-weight: bold">Two-way binding</h2>:
 
 &nbsp;
 
@@ -81,19 +70,13 @@ Nothing needed.
 
 Component Template (HTML file)
 
-<pre>
-
+<code>
 	<input 
-
 	  type="text" 
-
 	  \[(ngModel)]="username"
-
 	/>
-
 	<p>{{ username }}</p>
-
-</pre>
+</code>
 
 &nbsp;
 
@@ -101,7 +84,7 @@ Given this example, you can see how two-way binding simplifies the code. The dat
 
 &nbsp;
 
-<strong>React</strong>
+<h2 style="font-weight: bold">React</h2>
 
 &nbsp;
 
@@ -109,7 +92,7 @@ React uses one-way data binding (or, one-way data flow) to keep things "modular 
 
 &nbsp;
 
-![](/uploads/react-data-binding.png)
+![null](/uploads/react-data-binding.png)
 
 &nbsp;
 
@@ -117,55 +100,33 @@ Component (JS file)
 
 I'll post the whole file (since it's small and is focused on this example only) and walk through what's happening.
 
-<pre>
-
-	class App extends Component {
-
+<code>
+class App extends Component {
   constructor(props) {
+    super(props);
+     this.state = { 
 
-\    super(props);
-
-\    this.state = {
-
-\    username: ''
+\    username: ""
 
 \    }
 
-\    this.handleUsername = this.handleUsername.bind(this);
-
+this.handleUsername = this.handleUsername.bind(this);
 	  }
-
-
-
   handleUsername(event) {
-
-\    this.setState({
-
-\    username: event.target.value
-
-\    })
-
+    this.setState({
+   username: event.target.value
+    })
   }
-
   render() {
-
-\    return (
-
-\    <div className="App">
-
-\    <input onChange={this.handleUsername} />
-
-\    <p>{this.state.username}</p>
-
-\    </div>
-
-\    );
-
+    return (
+    <div className="App">
+    <input onChange={this.handleUsername} />
+    <p>{this.state.username}</p>
+    </div>
+   );
 	  }
-
 	}
-
-</pre>
+</code>
 
 &nbsp;
 
@@ -173,7 +134,7 @@ The input element has an event handler that detects for any change in user input
 
 &nbsp;
 
-<strong>Is two-way binding better than one-way?</strong>
+<h2 style="font-weight: bold">Is two-way binding better than one-way?</h2>
 
 &nbsp;
 
