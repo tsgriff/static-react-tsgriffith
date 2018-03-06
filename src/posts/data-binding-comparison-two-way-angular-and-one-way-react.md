@@ -35,7 +35,7 @@ Now let's look at solutions for one-way and two-way binding.
 
 &nbsp;
 
-Component Class (typescript file)
+<p style="font-weight: bold">Component Class (typescript file)</p>
 
 &nbsp;
 
