@@ -46,10 +46,9 @@ Component Class (typescript file)
   }
 ```
 
-
 &nbsp;
 
-Component Template (HTML file)
+<p style="font-weight: bold">Component Template (HTML file)</p>
 
 &nbsp;
 
@@ -66,13 +65,13 @@ Component Template (HTML file)
 
 &nbsp;
 
-Component Class (typescript file)
+<p style="font-weight: bold">Component Class (typescript file)</p>
 
 Nothing needed.
 
 &nbsp;
 
-Component Template (HTML file)
+<p style="font-weight: bold">Component Template (HTML file)</p>
 
 &nbsp;
 
@@ -102,7 +101,9 @@ React uses one-way data binding (or, one-way data flow) to keep things "modular 
 
 &nbsp;
 
-Component (JS file)
+<p style="font-weight: bold">Component (JS file)</p>
+
+&nbsp;
 
 I'll post the whole file (since it's small and is focused on this example only) and walk through what's happening.
 
@@ -112,7 +113,11 @@ I'll post the whole file (since it's small and is focused on this example only) 
 class App extends Component {
   constructor(props) {
     super(props);
-     this.state = {  username: ""    } this.handleUsername =      this.handleUsername.bind(this); }
+     this.state = {  
+      username: ""    
+     } 
+     this.handleUsername = this.handleUsername.bind(this); 
+     }
   handleUsername(event) {
     this.setState({
    username: event.target.value
