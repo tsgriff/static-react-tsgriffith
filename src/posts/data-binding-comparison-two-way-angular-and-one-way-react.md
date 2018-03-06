@@ -31,11 +31,13 @@ Now let's look at solutions for one-way and two-way binding.
 
 &nbsp;
 
-<h2 style="font-weight: bold">One-way binding</h2>:
+<h2 style="font-weight: bold">One-way binding</h2>
 
 &nbsp;
 
 Component Class (typescript file)
+
+<pre>
 
 ```
   username: string = '';
@@ -43,6 +45,8 @@ Component Class (typescript file)
    this.username = (<HTMLInputElement>event.target).value;
   }
 ```
+
+</pre>
 
 &nbsp;
 
@@ -58,7 +62,7 @@ type="text"
 
 &nbsp;
 
-<h2 style="font-weight: bold">Two-way binding</h2>:
+<h2 style="font-weight: bold">Two-way binding</h2>
 
 &nbsp;
 
@@ -119,7 +123,6 @@ class App extends Component {
    );
 }
 }
-
 ```
 
 &nbsp;
@@ -132,7 +135,7 @@ The input element has an event handler that detects for any change in user input
 
 &nbsp;
 
-Of course, this question can't be answered with a simple yes or no. It of course depends on scope and use case. According to Eric Greene in "Two-Way Data Binding: Angular 2 and React," one-way data binding adds extra work for the developer in trivial UI  use cases (such as the one that I presented). As a result, two-way binding is most useful for these simple cases whereas React overcomplicates it in the form of setting state and re-rendering the component. However, in more complex, larger data exchanges across multiple components, one-way binding is favorable in order to avoid complications of allowing two sources of data on a larger, cross-component scope (https://www.accelebrate.com/blog/two-way-data-binding-angular-2-and-react/).
+This question can't be answered with a simple yes or no. It depends on scope and use case. According to Eric Greene in "Two-Way Data Binding: Angular 2 and React," one-way data binding adds extra work for the developer in trivial UI  use cases (such as the one that I presented). As a result, two-way binding is most useful for these simple cases whereas React overcomplicates it in the form of setting state and re-rendering the component. However, in more complex, larger data exchanges across multiple components, one-way binding is favorable in order to avoid complications of allowing two sources of data on a larger, cross-component scope (https://www.accelebrate.com/blog/two-way-data-binding-angular-2-and-react/).
 
 &nbsp;
 
