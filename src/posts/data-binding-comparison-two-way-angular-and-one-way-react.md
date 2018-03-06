@@ -37,24 +37,26 @@ Now let's look at solutions for one-way and two-way binding.
 
 Component Class (typescript file)
 
-<code>
+```
   username: string = '';
   handleInput(event: Event) {
    this.username = (<HTMLInputElement>event.target).value;
   }
-</code>
+
+```
 
 &nbsp;
 
 Component Template (HTML file)
 
-<code>
-	<input 
-	  type="text" 
-	  (input)="handleInput($event)"
-	/>
-	<p>{{ username }}</p>
-</code>
+```
+<input 
+type="text" 
+(input)="handleInput($event)"
+/>
+<p>{{ username }}</p>
+```
+
 
 &nbsp;
 
