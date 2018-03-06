@@ -37,8 +37,6 @@ Now let's look at solutions for one-way and two-way binding.
 
 Component Class (typescript file)
 
-<pre>
-
 ```
   username: string = '';
   handleInput(event: Event) {
@@ -46,7 +44,6 @@ Component Class (typescript file)
   }
 ```
 
-</pre>
 
 &nbsp;
 
@@ -54,10 +51,9 @@ Component Template (HTML file)
 
 ```
 <input 
-type="text" 
-(input)="handleInput($event)"
-/>
-<p>{{ username }}</p>
+ type="text" 
+ (input)="handleInput($event)"
+/><p>{{ username }}</p>
 ```
 
 &nbsp;
