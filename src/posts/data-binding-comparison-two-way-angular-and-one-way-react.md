@@ -37,12 +37,14 @@ Now let's look at solutions for one-way and two-way binding.
 
 Component Class (typescript file)
 
-```
-  username: string = '';
+\`\``js  
+
+username: string = '';
   handleInput(event: Event) {
    this.username = (<HTMLInputElement>event.target).value;
   }
-```
+
+\`\``
 
 
 &nbsp;
