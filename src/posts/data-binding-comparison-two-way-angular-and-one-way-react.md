@@ -37,19 +37,21 @@ Now let's look at solutions for one-way and two-way binding.
 
 Component Class (typescript file)
 
-\`\``js  
+&nbsp;
 
-username: string = '';
+```
+  username: string = '';
   handleInput(event: Event) {
    this.username = (<HTMLInputElement>event.target).value;
   }
-
-\`\``
+```
 
 
 &nbsp;
 
 Component Template (HTML file)
+
+&nbsp;
 
 ```
 <input 
@@ -71,6 +73,8 @@ Nothing needed.
 &nbsp;
 
 Component Template (HTML file)
+
+&nbsp;
 
 ```
 <input 
@@ -101,6 +105,8 @@ React uses one-way data binding (or, one-way data flow) to keep things "modular 
 Component (JS file)
 
 I'll post the whole file (since it's small and is focused on this example only) and walk through what's happening.
+
+&nbsp;
 
 ```
 class App extends Component {
