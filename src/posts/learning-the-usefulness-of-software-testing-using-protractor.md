@@ -16,7 +16,7 @@ Over the last month in my new job, I've come to learn why testing is so importan
 
 &nbsp;
 
-I had little exposure to testing before this job - my education mentioned it and we used prewritten tests for exams, but it wasn't a required part of the curriculum. I learned that Test Driven Development (TDD) was becoming more popular on dev teams, but I unfortunately didn't have the time to spend learning how to write tests. I am so glad I have now.
+I had little exposure to testing before this job - my education mentioned it and we used prewritten tests for exams, but it wasn't a required part of the curriculum. I learned that Test Driven Development (TDD) has been becoming more popular on dev teams, but I unfortunately didn't have the time to spend learning how to write tests. I am so glad I have now.
 
 &nbsp;
 
