@@ -46,7 +46,8 @@ function getPosts () {
 }
 
 export default {
-
+  siteRoot: 'https://tsgriffith.com',
+  preact: true,  
   getSiteData: () => ({
     title: 'Taylor Griffith | Web Developer',
   }),
