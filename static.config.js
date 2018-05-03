@@ -1,3 +1,5 @@
+import React, { Component } from 'react'
+
 const fs = require('fs')
 const klaw = require('klaw')
 const path = require('path')
@@ -24,7 +26,6 @@ function getPosts () {
             // Create excerpt //
             dataObj.excerpt = dataObj.content.split('\n').slice(0,1).join(' ')
             // Push object into items array //
-            console.log(dataObj)
             items.push(dataObj)
           }
         })
@@ -76,4 +77,19 @@ export default {
       },
     ]
   },
-}
+  Document: class CustomHtml extends Component {
+    render() {
+      const { Html, Head, Body, children } = this.props
+      return (
+        <Html>
+          <Head>
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <script async src="https://www.google-analytics.com/analytics.js" />
+            <script async src="/assets/js/autotrack.custom.js" />
+          </Head>
+          <Body>{children}</Body>
+        </Html>
+      );
+    }
+  }
+};
