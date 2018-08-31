@@ -6,8 +6,8 @@ import { Route } from 'react-router-dom'
 import { cleanPath } from 'react-static'
 
 import t_0 from '../../src/containers/Home'
-import t_1 from '../../src/containers/Post'
-import t_2 from '../../src/containers/Blog'
+import t_1 from '../../src/containers/Blog'
+import t_2 from '../../src/containers/Post'
 import t_3 from '../../src/containers/404'
 
 // Template Map
