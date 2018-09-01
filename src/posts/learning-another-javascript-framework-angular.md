@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Learning Another JavaScript Framework!
+title: Learning Another JavaScript Framework
 date: 2018-03-01T22:32:50.873Z
 thumbnail: /uploads/angular.jpg
 categories:
