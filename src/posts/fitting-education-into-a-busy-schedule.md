@@ -25,10 +25,13 @@ In his book "The Millionaire Fastlane: Crack the Code to Wealth And Live Rich Fo
 
 &nbsp;
 
-1. Audiobooks or podcasts while driving or exercising.
-2. Books, articles, etc while waiting in a doctor's office, airport, etc.
-3. During a job if you have downtime (how common is that though, really?).
-4. While having the TV on in the background if you like the background noise. (191)
+\- Audiobooks or podcasts while driving or exercising.
+
+\- Books, articles, etc while waiting in a doctor's office, airport, etc.
+
+\- During a job if you have downtime (how common is that though, really?).
+
+\- While having the TV on in the background if you like the background noise. (191)
 
 &nbsp;
 
@@ -40,11 +43,15 @@ Examples of when I like to listen to an education audiobook or podcast:
 
 &nbsp;
 
-1. While doing dishes and cleaning the house.
-2. Having a peaceful evening walk.
-3. Driving long distances or to and from work.
-4. Mountain biking up a long climb (no cars, one earbud in for safety - although I don't do this much anymore).
-5. Playing a video game that doesn't require much concentration - I like exploring a virtual world and being productive at the same time when I feel like relaxing.
+\- While doing dishes and cleaning the house.
+
+\- Having a peaceful evening walk.
+
+\- Driving long distances or to and from work.
+
+\- Mountain biking up a long climb (no cars, one earbud in for safety - although I don't do this much anymore).
+
+\- Playing a video game that doesn't require much concentration - I like exploring a virtual world and being productive at the same time when I feel like relaxing.
 
 &nbsp;
 
