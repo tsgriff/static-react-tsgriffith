@@ -19,7 +19,7 @@ export default withRouteData(({ posts }) => {
     return (a.data.date < b.data.date) ? 1 : ((a.data.date > b.data.date) ? -1 : 0);
   })
   return (
-    <section className="blog">
+    <section id="blog">
       <DocumentMeta {...meta} />
       <div className="typewriter-effect">
         <p className="typewritten-phrase blog-title">Taylor's Blog.</p>
