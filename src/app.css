@@ -30,7 +30,7 @@ time, mark, audio, video {
   margin-bottom: 1em;
 }
 
-#blog li {
+#blog ul, ol li {
   margin-bottom: 5px !important;
 }
 
