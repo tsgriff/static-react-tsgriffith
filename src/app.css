@@ -30,6 +30,10 @@ time, mark, audio, video {
   margin-bottom: 1em;
 }
 
+#blog li {
+  margin-bottom: 5px;
+}
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
