@@ -21,10 +21,10 @@ In his book "The Millionaire Fastlane: Crack the Code to Wealth And Live Rich Fo
 
 * Audiobooks or podcasts while driving or exercising.
 * Books, articles, etc while waiting in a doctor's office, airport, etc.
-* During a job if you have downtime (how common is that though, really?).
+* During a job if you have downtime (how common is that though?).
 * While having the TV on in the background if you like the background noise. (191)
 
-I have done all of these things numerous times (on the job to a much lesser extent though). I am especially grateful for the presence of audiobooks and podcasts since they have given me countless hours of information and entertainment while exercising, doing household chores, and driving. Sometimes I wish I had a longer commute just to have that time to listen while cruising on the highway - it makes driving a lot more enjoyable. One of my favorite times to listen is while driving out to the forest for a mountain biking trip. I feel productive and healthy and the scenery complements the enjoyment of listening as well.
+I am especially grateful for the presence of audiobooks and podcasts since they have given me countless hours of information and entertainment while exercising, doing household chores, and driving. Sometimes I wish I had a longer commute just to have that time to listen while cruising on the highway - it makes driving a lot more enjoyable. One of my favorite times to listen is while driving out to the forest for a mountain biking trip. I feel productive and healthy and the scenery complements the enjoyment of listening as well.
 
 Examples of when I like to listen to an education audiobook or podcast:
 
