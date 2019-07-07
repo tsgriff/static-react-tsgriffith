@@ -31,7 +31,7 @@ time, mark, audio, video {
 }
 
 #blog ul, ol li {
-  margin-bottom: 5px !important;
+  margin-bottom: 5px;
 }
 
 /* HTML5 display-role reset for older browsers */
