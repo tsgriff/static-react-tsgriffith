@@ -28,10 +28,10 @@ export default withRouteData(({ posts }) => {
         {
           posts.map(post => (
             <section className="blog-post" key={post.data.slug}>
-              <Link className="post-title" to={`/blog/post/${post.data.slug}`}>{post.data.title}</Link>
+              <Link className="post-title" to={`/blog-in-dev/post/${post.data.slug}`}>{post.data.title}</Link>
               <Moment format="MMMM Do, YYYY" className="post-date">{post.data.date}</Moment>
               <Markdown className="post-text-sample" source={post.excerpt} escapeHtml={false} />
-              <Link to={`/blog/post/${post.data.slug}`} className="continue-reading">Continue reading &#8594;</Link>
+              <Link to={`/blog-in-dev/post/${post.data.slug}`} className="continue-reading">Continue reading &#8594;</Link>
             </section>
           ))
         }

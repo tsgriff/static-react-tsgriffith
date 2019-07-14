@@ -57,7 +57,7 @@ export default {
         component: 'src/containers/Home',
       },
       {
-        path: '/blog',
+        path: '/blog-in-dev',
         component: 'src/containers/Blog',
         getData: () => ({
           posts,

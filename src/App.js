@@ -11,7 +11,7 @@ const App = () => (
       <div>
         <nav className="custom-navbar">
           <Link className="nav-link" to="/">Home</Link>
-          <Link className="nav-link" to="/blog">Blog</Link>
+          <Link className="nav-link" to="http://blog.tsgriffith.com">Blog</Link>
           <Link className="nav-link" to="https://sandbox.tsgriffith.com">Sandbox</Link>
           <div className="nav-icon-contain">
             <i className="fa fa-laptop"></i>
