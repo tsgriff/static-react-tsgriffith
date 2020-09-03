@@ -33,6 +33,6 @@
   "devDependencies": {
     "autotrack": "^2.4.1",
     "eslint-config-react-tools": "^1.2.5",
-    "serve": "^6.5.6"
+    "serve": "^10.1.2"
   }
 }
